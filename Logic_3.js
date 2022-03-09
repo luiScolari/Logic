@@ -20,5 +20,11 @@ const e = !c
 const f = !(!c)
 
 const g = 10 ** 2 + ((a / b * 2) - 20 / 2 / 2 / 2)
+// 10 ** 2 + (22 - 20 / 2 / 2 / 2)
+// 100 + 22 - 2.5
+// 103
+
+// IN (A / B * 2) WE HAVE TWO OPERATORS WITH THE SAME WEIGHT, 
+// THEN THE CODE RUN FROM LEFT TO RIGHT
 
 console.log(g)

@@ -55,3 +55,4 @@ const e = j.length > (Math.sqrt(j.length + 10)) && (w / 2) !== (j.length ** 2)
 console.log(e)
 
 
+module.exports = { cadeia, direita, quociente, esquerda }
